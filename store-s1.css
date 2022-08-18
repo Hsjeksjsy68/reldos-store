@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700;800&family=Libre+Baskerville:wght@400;700&family=Poiret+One&family=Poppins:wght@200;400;500;600;700;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins';
+}
+
+.link{
+    height: 26px;
+    background-color: yellow;
+}
+
+.link li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+nav .logo{
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .logo img{
+    width: 200px;
+}
+
+.page-title{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.page-title h1{
+    font-weight: 600;
+    color: gray;
+}
+
+.page-title .line-n1{
+    width: 260px;
+    height: 5px;
+    background: rgba(129, 48, 210, 0.639);
+}
+
+.product{
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product .P-P-1-S{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product .img-box img{
+    width: 600px;
+    margin-top: 0px;
+}
+
+.product .info-box .title h1{
+    color: gray;
+    font-weight: 700;
+}
+
+.product .info-box .color{
+    display: flex;
+    margin: 5px;
+}
+
+.product .info-box .color h1{
+    font-weight: 600;
+    color: gray;
+    font-size: 20px;
+}
+
+.product .info-box .color li{
+    list-style: none;
+    margin: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.product .info-box .price-box h1{
+    color: rgb(94, 94, 94);
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.product .info-box .price-box .more a{
+    text-decoration: none;
+    color: gray;
+}
+
+
+.m-ber{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.m-ber .ber{
+    display: flex;
+}
+
+.m-ber .ber li{
+    list-style: none;
+    margin: 10px;
+}
+
+.m-ber .ber li a{
+    text-decoration: none;
+    color: gray;
+}
+
+.m-ber .ber li a P{
+    padding: 8px 15px;
+    border-radius: 100px;
+    font-size: 15px;
+}
+
+.m-ber .ber li a p:hover{
+    background: gray;
+    color: white;
+    transition: 0.5s;
+}
+
+
+
+.P-P-2-S{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+.P-P-2-S .plus-img-box{
+    display: flex;
+}
+
+.P-P-2-S div{
+    width: 300px;
+}
+
+
+.P-P-2-S div-1 .title-f p{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.P-P-2-S .plus-img-box .adidas{
+    width: 70px;
+}
+
+.P-P-2-S .plus-img-box .nike{
+    width: 100px;
+    margin-top: 4px;
+}
+
+.P-P-2-S .plus-img-box img:hover{
+    filter: blur(2px);
+    cursor: pointer;
+    transition: .5s;
+}
+
+
+
+.all-s{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+
+.showSlide {  
+    display: none  
+}  
+.showSlide img {  
+        width: 100%;
+        border-radius: 20px;  
+    }  
+.slidercontainer {  
+    max-width: 300px;  
+    position: relative;  
+    margin: auto;  
+}  
+.left, .right {  
+    cursor: pointer;  
+    position: absolute;  
+    top: 50%;  
+    width: auto;  
+    padding: 16px;  
+    margin-top: -22px;  
+    color: black;  
+    font-weight: bold;  
+    font-size: 18px;  
+    transition: 0.6s ease;  
+    border-radius: 0 3px 3px 0;
+}  
+.right {  
+    right: 0;  
+    border-radius: 3px 0 0 3px;  
+}  
+.left:hover, .right:hover {
+    color: rgba(0, 0, 0, 0.566);
+    }  
+.content {  
+    color: #eff5d4;  
+    font-size: 30px;  
+    padding: 8px 12px;  
+    position: absolute;  
+    top: 10px;  
+    width: 100%;  
+    text-align: center;
+    display: none;  
+}  
+.active {  
+    background-color: #717171;  
+}  
+/* Fading animation */  
+.fade {  
+    -webkit-animation-name: fade;  
+    -webkit-animation-duration: 1.5s;  
+    animation-name: fade;  
+    animation-duration: 1.5s;  
+}  
+@-webkit-keyframes fade {  
+    from {  
+        opacity: .4  
+    }  
+    to {  
+        opacity: 1  
+    }  
+}  
+
+@keyframes fade {  
+    from {  
+        opacity: .4  
+    }  
+    to {  
+        opacity: 1  
+    }  
+} 
+
+.slidercontainer img{
+    width: 300px;
+}
+
+.slidercontainer{
+    margin-left: -1px;
+}
+
+.all-s .title-a{
+    margin-top: 0px;
+    margin-left: 300px;
+}
+
+.all-s .title-a h1{
+    width: 300px;
+    font-weight: 900;
+}
+
+
+
+/*pp3*/
+
+.p-p-3{
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.p-p-3 .box-con-4{
+    display: flex;
+}
+
+.p-p-3 .box-con-4 .pg1:hover,.pg2:hover,.pg3:hover,.pg4:hover{
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid rebeccapurple;
+    padding: 5px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+
+.p-p-3 .box-con-4 div img{
+    width: 300px;
+    display: none;
+}
+
+.p-p-3 .box-con-4 .pg1 .img{
+    width: 300px;
+    height: 300px;
+    background: url('./ganaration-box/box-1/g-p-1.webp');
+    background-size: cover;
+}
+
+.p-p-3 .box-con-4 .pg2 .img{
+    width: 300px;
+    height: 300px;
+    background: url('./ganaration-box/box-1/g-p-2.webp');
+    background-size: cover;
+}
+
+.p-p-3 .box-con-4 .pg3 .img{
+    width: 300px;
+    height: 300px;
+    background: url('./ganaration-box/box-1/g-p-5.webp');
+    background-size: cover;
+}
+
+.p-p-3 .box-con-4 .pg4 .img{
+    width: 300px;
+    height: 300px;
+    background: url('./ganaration-box/box-1/g-p-4.jfif');
+    background-size: cover;
+}
+
+.p-p-3 .box-con-4 .title-pg{
+    display: none;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(7, 255, 230);
+}
+
+.p-p-3 .box-con-4 .title-pg p{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+.p-p-3 .box-con-4 .btn{
+    width: 300px;
+    height: 30px;
+}
+
+.p-p-3 .box-con-4 .btn button{
+    background: transparent;
+    border: none;
+    width: 300px;
+    cursor: pointer;
+}
+
+.p-p-3 .box-con-4 .btn button p{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+/* official product */
+
+
+.official-p .box .con-p-1 .img{
+width: 300px;
+height: 350px;
+background: url('./product-img/OP-P-REL-2.png');
+background-size: cover;
+border-radius: 10px;
+}
+
+.official-p .box .con-p-1 .img:hover{
+transition: .5s;
+}
+
+.official-p .con-p-1{
+    display: flex;
+}
+
+.official-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    color: gray;
+}
+
+.official-p .r-c{
+    margin: 20px;
+}
+
+.official-p .con-p-1 .btn-order{
+    margin-top: 20px;
+}
+
+.official-p .con-p-1 .btn-order button{
+padding: 10px;
+width: 200px;
+background: none;
+border: 1px solid black;
+color: black;
+border-radius: 1000px;
+cursor: pointer;
+}
+
+.official-p .con-p-1 .btn-order button p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.official-p .con-p-1 .btn-order button:hover{
+    background: rgb(74, 74, 74);
+    color: white;
+    transition: .7s;
+}
+
+
+
+/*login*/
+
+
+.login{
+    float: right;
+    margin: 10px;
+    position: fixed;
+}
+
+.login .l-b button{
+    padding: 10px;
+    text-align: center;
+    border-radius: 1000px;
+    cursor: pointer;
+    border: none;
+}
+
+.login .l-b button p{
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.login button p:hover{
+    color: rgba(129, 48, 210, 0.639);
+    transition: .5s;
+}

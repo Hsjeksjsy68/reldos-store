@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store - Reldos</title>
+    <link rel="stylesheet" href="./store-s1.css">
+    <link rel="stylesheet" href="./color-deta.css">
+    <link rel="icon" href="./../official-logos/icon.png"><link>
+    <rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawesome.com/ffa2d60882.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./store-s1-n2.css">
+</head>
+<body>
+    <nav class="link">
+        <li><a href="./../index2.html">GO TO RELDOS</a></li>
+    </nav>
+    
+    <div class="login">
+        <div class="l-b">
+            <a href="">
+                <button>
+                    <p>
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                    </p>
+                </button>
+            </a>
+        </div>
+    </div>
+    <nav>
+        <ul class="logo">
+            <a href="">
+                <img src="./product-img/Reldos Store.png" alt="">
+            </a>
+        </ul>
+    </nav>
+    <nav class="m-ber">
+        <ul class="ber">
+            <li><a href=""><p>Boots</p></a></li>
+            <li><a href=""><p>Ball</p></a></li>
+            <li><a href=""><p>Reldos Jersey</p></a></li>
+            <li><a href=""><p>Pents</p></a></li>
+        </ul>
+    </nav>
+
+    <div class="official-p">
+        <div class="box">
+            <div class="con-p-1">
+                <div class="img"></div>
+                <div class="r-c">
+                    <div class="inline-2">
+                        <h1>
+                            Official Jersry
+                        </h1>
+                        <p>
+                   Now this jersey is  available.
+
+                        </p>
+                        <p>
+                            27.6.2022 to 30.6.2022
+                        </p>
+                        <div class="line-2"></div>
+                    </div>
+                    <div class="btn-order">
+                        <a href="">
+                            <button>
+                                <p>
+                                    Order Now
+                                </p>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="page-title" id="footballboots">
+        <div class="inline">
+            <h1>
+                #FootballBoots
+            </h1>
+            <div class="line-n1"></div>
+        </div>
+    </div>
+    <div class="product">
+        <div class="P-P-1-S">
+            <div class="info-box">
+                <div class="title">
+                    <h1>
+                        Nike - <br> Mercurial Iteration
+                    </h1>
+                </div>
+                <div class="color">
+                    <h1>
+                        Colors
+                    </h1>
+                    <li class="c-1-nm"></li>
+                    <li class="c-2-nm"></li>
+                    <li class="c-3-nm"></li>
+                    <li class="c-4-nm"></li>
+                </div>
+                <div class="m-info">
+                    This shose inputed to Nike.
+                </div>
+                <div class="price-box">
+                    <h1>
+                         Only $250.9
+                    </h1>
+                    <div class="more">
+                        <a href="">
+                            See
+                        </a>
+                    </div>
+                </div>
+             </div>
+             <div class="img-box">
+                <img src="./product-img/P-1-13-6-2022-BGR.png" alt="">
+            </div>
+        </div>
+ </div>
+
+<div class="all-s" id="adidas">
+    <div class="title-a">
+        <h1>
+            Adidas shose collection
+        </h1>
+        <p>
+            #Adidas
+        </p>
+    </div>
+    <div class="slidercontainer">
+        <div class="showSlide fade">  
+            <a href="">
+                <img src="./ganaration-box/box-2/g-p-a-4.webp" /> 
+            </a> 
+            <div class="content">Slide2 heading</div>  
+        </div>  
+    
+        <div class="showSlide fade">  
+            <a href="">
+                <img src="./ganaration-box/box-2/g-p-a-2.webp" />  
+            </a>
+            <div class="content">Slide3 heading</div>  
+        </div>  
+        
+        <div class="showSlide fade">  
+            <a href="">
+                <img src="./ganaration-box/box-2/g-p-a-3.webp" />
+            </a>  
+            <div class="content">Slide3 heading</div>  
+        </div>
+        
+        <div class="showSlide fade">  
+            <a href="">
+                <img src="./ganaration-box/box-2/g-p-a-1.webp" />
+            </a>  
+            <div class="content">Slide3 heading</div>  
+        </div>  
+        <!-- Navigation arrows -->  
+        <a class="left" onclick="nextSlide(-1)">❮</a>  
+        <a class="right" onclick="nextSlide(1)">❯</a>  
+    </div>
+</div>
+
+<script type="text/javascript">  
+    var slide_index = 1;  
+    displaySlides(slide_index);  
+
+    function nextSlide(n) {  
+        displaySlides(slide_index += n);  
+    }  
+
+    function currentSlide(n) {  
+        displaySlides(slide_index = n);  
+    }  
+
+    function displaySlides(n) {  
+        var i;  
+        var slides = document.getElementsByClassName("showSlide");  
+        if (n > slides.length) { slide_index = 1 }  
+        if (n < 1) { slide_index = slides.length }  
+        for (i = 0; i < slides.length; i++) {  
+            slides[i].style.display = "none";  
+        }  
+        slides[slide_index - 1].style.display = "block";  
+    }  
+</script>
+
+<div class="p-p-3">
+    <div class="box-con-4">
+        <a href="">
+        <div class="pg1">
+            <div class="img"><img src="./ganaration-box/box-1/g-p-1.webp" alt=""></div>
+            <div class="title-pg"><p>reldos product name PG1</p></div>
+            <div class="btn"><a href=""><button><p>Only $200</p></button></a></div>
+        </div>
+        </a>
+        <a href="">
+            <div class="pg2">
+                <div class="img"><img src="./ganaration-box/box-1/g-p-2.webp" alt=""></div>
+                <div class="title-pg"><p>reldos product name PG1</p></div>
+                <div class="btn"><a href=""><button><p>Only $205</p></button></a></div>
+            </div>
+        </a>
+        <a href="">
+        <div class="pg3">
+            <div class="img"><img src="./ganaration-box/box-1/g-p-3.webp" alt=""></div>
+            <div class="title-pg"><p>reldos product name PG1</p></div>
+            <div class="btn"><a href=""><button><p>Only $203</p></button></a></div>
+        </div>
+        </a>
+        <a href="">
+        <div class="pg4">
+            <div class="img"><img src="./ganaration-box/box-1/g-p-4.jfif" alt=""></div>
+            <div class="title-pg"><p>reldos product name PG1</p></div>
+            <div class="btn"><a href=""><button><p>Only $210</p></button></a></div>
+        </div>
+        </a>
+    </div>
+</div>
+
+
+<div class="jer-v1-pp4" id="reldos-color-sky">
+    <div class="box">
+        <div class="left-s">
+            <div class="product">
+                <img src="./ganaration-box/box-3/reldos color sky front.png" alt="">
+            </div>
+            <div class="text">
+                <h1>
+                    Reldos Color Sky (Front)
+                </h1>
+                <div class="colors">
+                    
+                <h4 class="color1" title="#7080ca">
+                </h4>
+                <h4 class="color2" title="#ffffff">
+                </h4>
+                <h4 class="color3" title="#432f5a">
+                </h4>
+                <h4 class="color4" title="#d1e6f5">
+                </h4>
+                <h4 class="color5" title="#414d88">
+                </h4>
+                </div>
+                <p>
+                    Use the online image color picker above to select a color and get the HTML Color Code of this pixel.Use the online image color picker above to select a color and get the HTML Color Code of this pixel.  
+                </p>
+                <div class="spon-logo">
+                    <img src="./ganaration-box/box-3/qatar-airways.png" alt="">
+                    <img src="./ganaration-box/box-3/Adidas 2.png" alt="" class="adidas">
+                </div>
+            </div>
+        </div>
+        <div class="border-line">
+            <div class="line"></div>
+        </div>
+        <div class="right-s">
+            <div class="text">
+                <h1>
+                    Reldos Color Sky (Back)
+                </h1>
+                <p>
+                    Use the online image color picker above to select a color and get the HTML Color Code of this pixel. Also you get the HEX color code value, RGB value and HSV value. Under 'Use Your Image' You can upload your own image (for example an screenshot of your desktop), paste an image from clipboard, put a picture url in the textbox below. Or use an website url, you will see a thumbnail on the left side.
+                </p>
+                <div class="spon-logo">
+                    <img src="./ganaration-box/box-3/2560px-Trivago.svg.png" alt="">
+                </div>
+            </div>
+            <div class="product">
+                <img src="./ganaration-box/box-3/reldos color sky back.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="order-reldos-color-sky">
+    <a href="#reldos-color-sky">
+        <button>
+            <p>
+                Pre Order
+            </p>
+        </button>
+    </a>
+</div>
+ 
+ <div class="P-P-2-S">
+    <div class="plus-img-box">
+        <div class="box-1">
+            <img src="./logo/Adidas 2.png" alt="" class="adidas">
+        </div>
+        <div class="box-2">
+            <img src="./logo/nike-logo.png" alt="" class="nike">
+        </div>
+    </div>
+</div>
+</body>
+</html>

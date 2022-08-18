@@ -1,0 +1,145 @@
+.jer-v1-pp4{
+    background: #bdc6f4;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jer-v1-pp4 .box .border-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jer-v1-pp4 .box .border-line .line{
+    width: 500px;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.596);
+    border: none;
+    border-radius: 100px;
+}
+
+.jer-v1-pp4 .box div .product img{
+    width: 500px;
+}
+
+.jer-v1-pp4 .box .left-s{
+    display: flex;
+}
+
+.jer-v1-pp4 .box .left-s .text{
+    margin-top: 150px;
+}
+
+.jer-v1-pp4 .box .left-s .text h1{
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.719);
+
+}
+
+
+.jer-v1-pp4 .box .left-s .text .spon-logo img{
+    width: 100px;
+    margin: 10px;
+}
+
+.jer-v1-pp4 .box .left-s .text .spon-logo .adidas{
+    width: 80px;
+    display: none;
+}
+
+
+.jer-v1-pp4 .box .left-s .text .colors{
+    display: flex;
+}
+
+.jer-v1-pp4 .box .left-s .text .colors h4{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.jer-v1-pp4 .box .left-s .text .color1{
+    background: #7080ca;
+}
+
+.jer-v1-pp4 .box .left-s .text .color2{
+    background: #ffffff;
+}
+
+.jer-v1-pp4 .box .left-s .text .color3{
+    background: #432f5a;
+}
+
+.jer-v1-pp4 .box .left-s .text .color4{
+    background: #d1e6f5;
+}
+
+.jer-v1-pp4 .box .left-s .text .color5{
+    background: #414d88;
+}
+
+
+.jer-v1-pp4 .box .left-s .text p{
+    width: 500px;
+    color: rgba(0, 0, 0, 0.711);
+}
+
+
+
+.jer-v1-pp4 .box div .product img{
+    width: 400px;
+}
+
+.jer-v1-pp4 .box .right-s{
+    display: flex;
+}
+
+.jer-v1-pp4 .box .right-s .text{
+    margin-top: 150px;
+}
+
+.jer-v1-pp4 .box .right-s .text h1{
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+.jer-v1-pp4 .box .right-s .text p{
+    width: 500px;
+    color: rgba(0, 0, 0, 0.711);
+}
+
+.jer-v1-pp4 .box .right-s .text .spon-logo img{
+    width: 100px;
+    margin: 10px;
+}
+
+
+.order-reldos-color-sky{
+    background: #bdc6f4;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.order-reldos-color-sky a button{
+    cursor: pointer;
+    padding: 5px;
+    width: 300px;
+    border: 2px solid #414d88;
+    background: none;
+    text-align: center;
+    border-radius: 100px;
+    color: #414d88;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.order-reldos-color-sky a button:hover{
+    background-color: #414d88;
+    transition: .5s;
+    color: white;
+}
